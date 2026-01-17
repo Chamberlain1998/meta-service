@@ -4,14 +4,10 @@
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="uoR8kyc2rAj3ldsKYM-e-1" parent="1" style="html=1;whiteSpace=wrap;verticalAlign=top;" value="AdmitHandler" vertex="1">
-          <mxGeometry height="80" width="200" x="200" y="259" as="geometry" />
-        </mxCell>
-        <mxCell id="uoR8kyc2rAj3ldsKYM-e-2" parent="1" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" value="+ admit(HttpRequest r) : Error" vertex="1">
-          <mxGeometry height="26" width="170" x="220" y="291" as="geometry" />
-        </mxCell>
-        <mxCell id="uoR8kyc2rAj3ldsKYM-e-11" edge="1" parent="1" source="uoR8kyc2rAj3ldsKYM-e-7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" target="uoR8kyc2rAj3ldsKYM-e-1">
-          <mxGeometry relative="1" as="geometry" />
+        <mxCell id="uoR8kyc2rAj3ldsKYM-e-11" edge="1" parent="1" source="uoR8kyc2rAj3ldsKYM-e-7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" target="t3YcnYyKODf8ctAh2-Iy-1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="400" y="299" as="targetPoint" />
+          </mxGeometry>
         </mxCell>
         <mxCell id="uoR8kyc2rAj3ldsKYM-e-7" parent="1" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" value="iamMgr" vertex="1">
           <mxGeometry height="86" width="180" x="500" y="130" as="geometry" />
@@ -37,8 +33,10 @@
         <mxCell id="uoR8kyc2rAj3ldsKYM-e-15" parent="uoR8kyc2rAj3ldsKYM-e-12" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" value="+ admit(HttpRequest r) : Error" vertex="1">
           <mxGeometry height="26" width="180" y="60" as="geometry" />
         </mxCell>
-        <mxCell id="uoR8kyc2rAj3ldsKYM-e-22" edge="1" parent="1" source="uoR8kyc2rAj3ldsKYM-e-16" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" target="uoR8kyc2rAj3ldsKYM-e-1">
-          <mxGeometry relative="1" as="geometry" />
+        <mxCell id="uoR8kyc2rAj3ldsKYM-e-22" edge="1" parent="1" source="uoR8kyc2rAj3ldsKYM-e-16" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" target="t3YcnYyKODf8ctAh2-Iy-1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="400" y="299" as="targetPoint" />
+          </mxGeometry>
         </mxCell>
         <mxCell id="uoR8kyc2rAj3ldsKYM-e-16" parent="1" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" value="RbacMgr" vertex="1">
           <mxGeometry height="104" width="180" x="500" y="380" as="geometry" />
@@ -52,10 +50,14 @@
         <mxCell id="uoR8kyc2rAj3ldsKYM-e-19" parent="uoR8kyc2rAj3ldsKYM-e-16" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" value="+ admit(HttpRequest r) : Error" vertex="1">
           <mxGeometry height="26" width="180" y="78" as="geometry" />
         </mxCell>
-        <mxCell id="uoR8kyc2rAj3ldsKYM-e-20" edge="1" parent="1" source="uoR8kyc2rAj3ldsKYM-e-13" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;exitX=0;exitY=0.5;exitDx=0;exitDy=0;" target="uoR8kyc2rAj3ldsKYM-e-1">
+        <mxCell id="uoR8kyc2rAj3ldsKYM-e-20" edge="1" parent="1" source="uoR8kyc2rAj3ldsKYM-e-13" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;exitX=0;exitY=0.5;exitDx=0;exitDy=0;" target="t3YcnYyKODf8ctAh2-Iy-1">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="490" y="300" as="sourcePoint" />
+            <mxPoint x="400" y="299" as="targetPoint" />
           </mxGeometry>
+        </mxCell>
+        <mxCell id="t3YcnYyKODf8ctAh2-Iy-1" parent="1" style="verticalAlign=top;align=left;overflow=fill;fontSize=12;fontFamily=Helvetica;html=1;rounded=0;shadow=0;comic=0;labelBackgroundColor=none;strokeWidth=1" value="&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;&quot;&gt;&lt;i&gt;&amp;lt;&amp;lt;Interface&amp;gt;&amp;gt;&lt;/i&gt;&lt;br&gt;&lt;span style=&quot;white-space: normal;&quot;&gt;AdmitHandler&lt;/span&gt;&lt;br&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;&lt;br&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;&lt;span style=&quot;white-space: normal;&quot;&gt;+ admit(HttpRequest r) : Error&lt;/span&gt;&lt;br&gt;&lt;/p&gt;" vertex="1">
+          <mxGeometry height="97" width="190" x="200" y="250.5" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
