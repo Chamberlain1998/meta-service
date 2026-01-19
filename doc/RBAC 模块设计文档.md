@@ -17,7 +17,7 @@
 
   ------
 
-  ![image-20260117163846925](/Users/chamberlain/Library/Application Support/typora-user-images/image-20260117163846925.png)
+  ![rbac管理](https://github.com/Chamberlain1998/meta-service/blob/main/doc/images/rbac.png?raw=true)
 
   ## 1. 设计目标
 
@@ -147,7 +147,7 @@
       "instanceCount": {
         "limit": 1000,
         "unit": "count",
-        "is_hard": true,
+        "is_hard": true
       }
     },
     "usages": {
@@ -171,14 +171,14 @@
           {
             "type": "function",
             "selector": [
-              "name-function-0"
+              "name-function-0",
               "env-prod",
               "team-public"
             ]
           }
         ],
         "verbs": [
-          "Create",
+          "Create"
         ]
       },
       {
@@ -186,8 +186,8 @@
           {
             "type": "instance",
             "selector": [
-              "name-instance-001"
-              "function-function-0"
+              "name-instance-001",
+              "function-function-0",
               "env-prod",
               "team-public"
             ]
