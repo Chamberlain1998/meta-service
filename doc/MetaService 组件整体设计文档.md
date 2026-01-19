@@ -422,13 +422,13 @@ MetaService 是云原生平台的核心元数据管理服务，负责维护平�
 
 ## 10. 附录 A：接口列表
 
-[接口列表]: https://github.com/Chamberlain1998/meta-service/blob/main/doc/API接口列表.md
+[接口列表]: https://github.com/Chamberlain1998/meta-service/blob/main/doc/API接口列表.md API接口列表
 
 ## 11. 附录B：参数结构列表
 
-[参数列表]: https://github.com/Chamberlain1998/meta-service/blob/main/doc/API数据结构定义.md
+[参数列表]: https://github.com/Chamberlain1998/meta-service/blob/main/doc/API数据结构定义.md API数据结构定义
 
 ## 12. 附录B：OpenAPI 3.0 规范接口文件
 
-[openapi.yaml]: https://github.com/Chamberlain1998/meta-service/blob/main/api/openapi.yaml
+[openapi.yaml]: https://github.com/Chamberlain1998/meta-service/blob/main/api/openapi.yaml openapi
 
